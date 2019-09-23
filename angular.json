@@ -24,9 +24,11 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/style.css"
             ],
-            "scripts": []
+            "scripts": [
+
+            ]
           },
           "configurations": {
             "production": {
@@ -84,9 +86,12 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/style.css",
+              "src/includes"
             ],
-            "scripts": []
+            "scripts": [
+              "src/js"
+            ]
           }
         },
         "lint": {
@@ -115,6 +120,7 @@
           }
         }
       }
-    }},
+    }
+  },
   "defaultProject": "chetan-construction-company"
 }
